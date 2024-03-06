@@ -22,10 +22,13 @@ void setup()
 {
 	pinMode(LED, OUTPUT);
 	pinMode(RECEIVER, INPUT);
+	
+	Serial.begin(9600);
 }
 
 void loop()
 {
 	input = digitalRead(RECEIVER);
+	Serial.println(input);
 	digitalWrite(LED, input);
 }
