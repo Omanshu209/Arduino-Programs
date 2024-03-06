@@ -12,6 +12,9 @@ PIN 10 -> LED (+ve terminal)
 GND -> LED(-ve terminal)
 */
 
+// "Floating Pin Effect" will not occur
+// for PIN 11 is connected to a PULL UP resistor internally
+
 int LED = 10, RECEIVER = 11;
 
 void setup()
