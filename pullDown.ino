@@ -8,6 +8,9 @@ CIRCUIT -
 5V -> Push Button (path 0)
 PIN 11 -> Push Button (path 1)
 GND -> Resistor -> Push Button (path 1)
+
+PIN 10 -> LED (+ve terminal)
+GND -> LED(-ve terminal)
 */
 
 // Not connecting the GND to the circuit through a Resistor will
